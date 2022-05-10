@@ -28,26 +28,28 @@ I have covered the following scenarios as part of the test.
 3. Run the below scripts to start execution- 
 
     ```console
-    // Runs the automation in Google Chrome 
+    /* Runs the automation in Google Chrome */
     npm run test-all-chrome
     ```
 
     ```console
-    // Runs the automation in all the available browsers installed in the computer 
+    /* Runs the automation in all the available browsers installed in the computer */
     npm run test-all
     ```
 4. Use following commands to run the tests in a single browser-
     
     ```console
+    /* Note: These commands will not generate report */
 
-    **Note:** These commands will not generate report 
-
-    // Safari
+    /* Safari */
     testcafe safari page_model/tests/  
-
-    // Chrome
+    ```
+    ```console
+    /* Chrome */
     testcafe chrome page_model/tests/ 
+    ```
 
-    // Firefox
+    ```console
+    /* Firefox */
     testcafe firefox page_model/tests/  
     ``` 
