@@ -1,0 +1,22 @@
+ Running tests in:
+ - Firefox 100.0 / macOS 10.15
+ - Chrome 101.0.4951.54 / macOS 10.15.7
+ - Safari 15.0 / macOS 10.15.7
+
+ Login feature testing
+ ✓ User can login with valid credentials
+ ✓ User can't login with locked account
+
+ Logout feature testing
+ ✓ User can perform logout after login
+
+ Shopping Cart
+ ✓ User can view the Shopping Cart page even without any products
+ ✓ User can add & remove an item to the shopping cart
+ ✓ User can add multiple items to the shopping cart
+ ✓ User can't continue with purchase if he/she doesn't enter checkout
+ information
+ ✓ User can continue with purchase when checkout information provided
+
+
+ 8 passed (1m 32s)

@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "testcafe": "^1.18.6"
+  },
+  "name": "payconiqtest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-all-chrome": "testcafe chrome ./page_model/tests --reporter spec:reports/results.txt -s takeOnFails=true",
+    "test-all": "testcafe all ./page_model/tests --reporter spec:reports/results.txt -s takeOnFails=true"
+  },
+  "keywords": [],
+  "author": "Shubhendra Singh",
+  "license": "ISC",
+  "description": "Payconiq Assignment - This is a Javascript and TestCafe solution for automating am e-commerce website."
+}
